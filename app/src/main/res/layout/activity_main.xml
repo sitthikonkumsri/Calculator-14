@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#190033"
+    android:padding="16dp"
+    android:id="@+id/main"
+    >
+
+    <!--    หน้าจอแสดงผล-->
+    <TextView
+        android:id="@+id/txtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:textSize="36sp"/>
+
+    <!--    โซนปุ่ม-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+    <!--        แถวที่1-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--        ปุ่มแถว1-->
+            <Button
+                android:id="@+id/btnAC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="AC"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"
+                />
+            <Button
+                android:id="@+id/btnDel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="DEL"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+            <Button
+                android:id="@+id/btnMod"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="%"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="/"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+
+
+        </LinearLayout>
+                <!--        แถวที่2-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--        ปุ่มแถว2-->
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="7"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="8"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="9"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btnMulti"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="*"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+
+
+        </LinearLayout>
+        <!--        แถวที่3-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--        ปุ่มแถว3-->
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="4"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="5"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="6"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btnMinus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="-"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+
+
+        </LinearLayout>
+<!--        แถวที่4-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--        ปุ่มแถว4-->
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="2"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="3"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btnPlus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="+"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+
+
+        </LinearLayout>
+<!--        แถวที่5-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <!--        ปุ่มแถว5-->
+            <Button
+                android:id="@+id/btnSign"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="±"
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+            <Button
+                android:id="@+id/btn0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="0"
+                android:layout_margin="4dp"
+                android:backgroundTint="#CCE5FF"/>
+            <Button
+                android:id="@+id/btnJ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="."
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+            <Button
+                android:id="@+id/btnEquals"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="="
+                android:layout_margin="4dp"
+                android:backgroundTint="#C0C0C0"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
